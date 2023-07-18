@@ -1,3 +1,9 @@
+@media screen and (max-width: 768px) {
+    /* product section */
+    .products-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 @media screen and (max-width: 425px) {
     .nav-container{
         flex-direction: column;
@@ -45,6 +51,11 @@
 
     .fa-brands {
         font-size: 25px;
+    }
+
+    /* product section */
+    .products-container{
+        grid-template-columns: 1fr;
     }
 
 }

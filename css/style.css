@@ -122,3 +122,62 @@ header{
     width: 60%;
     margin:  40px auto;
 }
+
+/* Products Section */
+.products-container{
+    display: grid;
+    max-width: 1400px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.single-product{
+    width: 100%;
+    background-color: #e6e9eb;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px rgba(48, 48, 48, 0.555);
+}
+
+.single-product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-icon-name-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.product-icon{
+    font-size: 20px;
+}
+
+.product-icon span{
+    padding: 10px;
+    background-color: #9376e0;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: white;
+}
+
+
+/* Discount Section */
+.discount-section{
+    background-color: #9376e0;
+    min-height: 500px;
+    padding: 20px 0;
+}
+
+.discount-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+}
