@@ -181,3 +181,33 @@ header{
     min-height: 200px;
     align-items: center;
 }
+
+.discount-img{
+    width: 50%;
+    position: relative;
+}
+
+.discount-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.discount-text{
+    width: 50%;
+}
+
+.discount-number{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
