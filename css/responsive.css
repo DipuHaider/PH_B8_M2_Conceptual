@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     .nav-container{
         flex-direction: column;
     }
@@ -16,4 +16,35 @@
         width: 100%;
         margin-bottom: 10px;
     }
+
+    /* banner section */
+    .banner-container{
+        flex-direction: column;
+        margin: 10px auto 0;
+    }
+    .banner-text{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+
+    .banner-text h1{
+        font-size: 30px;
+    }
+    
+    .banner-text p{
+        font-size: 25px;
+    }
+
+    .icons-container {
+        margin: 10px auto;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+    }
+
 }
