@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+header{
+    background-color: #9376e0;
+}
+
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-container img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.logo-container p{
+   font-size: 20px;
+   color: #ffffff;
+}
+
+.logo-container .logo-color{
+    color: #e893cf;
+ }
+
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.nav-items-container .login-btn {
+    background-color: #e893cf;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+}
